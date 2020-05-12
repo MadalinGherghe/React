@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 35%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: darkred;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.big-title{
+  padding-left: 20%;
+  color: darkblue;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 300%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
